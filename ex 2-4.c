@@ -13,4 +13,6 @@ int main() {
     }
     
     printf("TOTAL: %.2f", total);
+    
+    return 0;
 }
