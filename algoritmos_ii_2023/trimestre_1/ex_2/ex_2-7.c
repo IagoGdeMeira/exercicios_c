@@ -6,7 +6,7 @@ int main() {
     scanf("%f", &x);
     scanf("%f", &y);
     
-    if (x >= y) {
+    if (x > y) {
         maior = x;
     } else {
         maior = y;
