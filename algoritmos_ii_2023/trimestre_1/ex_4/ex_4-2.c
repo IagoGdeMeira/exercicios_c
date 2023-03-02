@@ -9,12 +9,10 @@ int main () {
     }
     
     for(int i = 0; i < 15; i++) {
-        if(num[i] % 2 == 0) {
+        if(num[i] % 2 == 0)
             printf("%d é um número par.\n", num[i]);
-        } else {
+        else
             printf("%d é um número ímpar.\n", num[i]);
-        }
-    }
     
     return 0;
 }
