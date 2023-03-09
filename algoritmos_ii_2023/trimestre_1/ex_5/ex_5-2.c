@@ -6,7 +6,7 @@ int main() {
     
     for(int i = 0; i < 10; i++) {
         printf("Informe o nome do %dº aluno: ", i+1);
-        scanf("%s", alunos[i
+        scanf("%s", alunos[i]);
         
         for(int j = 0; j < 4; j++) {
             float nota = 0.0;
