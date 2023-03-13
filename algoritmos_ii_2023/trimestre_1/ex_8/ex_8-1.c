@@ -11,9 +11,15 @@ struct veiculo {
 };
 
 int main() {
-    struct veiculo camaro;
+    struct veiculo carro1;
     
-    camaro.fabricante = "Munhoz&Mariano's";
+    carro1.fabricante = "Munhoz&Mariano's";
+    carro1.modelo = "Camaro";
+    carro1.ano = 2017;
+    carro1.placa = "GSH2945";
+    carro1.tipo_combustivel = "G";
+    carro1.preco = 512284.29;
+    carro1.ipva = 20491.37;
     
     return 0;
 }
