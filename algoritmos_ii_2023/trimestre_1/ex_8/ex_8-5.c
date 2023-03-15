@@ -9,7 +9,7 @@ struct tecidos {
 
 int main() {
     int qntdTecidos = 30;
-    struct tecidos bichoDaSeda[2];
+    struct tecidos bichoDaSeda[qntdTecidos];
     
     for(int i = 0; i < qntdTecidos; i++) {
         printf("Informe o código numérico do tecido: ");
