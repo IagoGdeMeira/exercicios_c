@@ -11,7 +11,7 @@ struct livro {
 
 int main() {
     float mediaPaginas = 0.0;
-    int qntdLivros = 3;
+    int qntdLivros = 5;
     struct livro vetLivros[qntdLivros];
     
     for(int i = 0; i < qntdLivros; i++) {
