@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 struct provedorInternet {
 	char nomeCliente[80];
 	char enderecoEletronico[80];
